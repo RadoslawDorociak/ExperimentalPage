@@ -209,9 +209,31 @@ width: 100%;
  
   background: radial-gradient(#0e361c94, #00000083);
 }
+
+.textgjl{
+  color: rgb(40, 0, 63);
+   
+ }
 .behindpicprj{
  
   background: radial-gradient(#451a77, #00000083);
+}
+.behindpiccrs{
+ 
+  background: radial-gradient(#e24ac9, #00000083);
+}
+.behindpicfrt{
+ 
+  background: radial-gradient(#000000, #000000);
+}
+.behindpicsunf{
+  background-color: #00000000;
+  background: radial-gradient(#6e2d0e, #381701cb);
+  border-color: #6b2d1000;
+}
+
+.textfrt{
+  color: rgb(184, 175, 145);
 }
 .aligncorrectly{
   padding-left: 5%;
@@ -237,6 +259,12 @@ width: 100%;
 .sizedVid{
   width: 100%;
 }
+.sizedVidEdu{
+  width: 60%;
+}
+.sizedVidPrj{
+  width: 80%;
+}
 .animBG {
   content: "";
   position: absolute;
@@ -261,7 +289,7 @@ width: 100%;
   content: "";
   position: absolute;
   inset: 0;
-  z-index: -999;
+  z-index: -998;
   background:linear-gradient(90deg,rgb(0, 15, 22),rgb(23, 0, 31),rgb(0, 20, 0)) left/400% 100%;
   animation:f 2s infinite alternate linear;
 }
@@ -273,6 +301,49 @@ width: 100%;
   z-index: -999;
   background:linear-gradient(90deg,rgb(0, 0, 30),rgb(0, 0, 40),rgb(0, 6, 15)) left/400% 100%;
   animation:f 2s infinite alternate linear;
+}
+
+.animBGskill {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -999;
+  background:linear-gradient(90deg,rgb(0, 39, 34),rgb(0, 36, 2),rgb(0, 5, 36)) left/400% 100%;
+  animation:f 2s infinite alternate linear;
+}
+
+.animBGcarcasscade {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -999;
+  background-image:url(../Images/carc2.jpg);
+  background-size: cover;
+}
+.animBGcrystale {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -999;
+  background-image:url(../Images/crys1.jpg);
+  background-size: cover;
+}
+.animBGFortunato {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -999;
+  background-image:url(https://img.itch.zone/aW1hZ2UvMTgxNTUxOS8xMDY1Nzk5NS5wbmc=/original/J4bhOM.png);
+  background-size: cover;
+}
+
+.animBGsuntower {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -999;
+  background-image:url(../Images/sunf6.png);
+  background-size: cover;
 }
 
 @keyframes f {
@@ -296,6 +367,60 @@ width: 100%;
   margin-right: 20%;
 }
 .eduImage{
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
+
+.panelMarigin{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.tabWidth{
+  width: 50%;
+}
+.carcasscadeProjectPanel{
+  background-image:url(../Images/carc2.jpg);
+  background-size: cover;
+}
+.crystaleProjectPanel{
+  background-image:url(../Images/crys1.jpg);
+  background-size: cover;
+}
+.suntowerProjectPanel{
+  background-image:url(../Images/sunf1.jpg);
+  background-size: cover;
+}
+.fortunatoProjectPanel{
+  background-image:url(../Images/fort1.jpg);
+  background-size: cover;
+}
+.gjlProjectPanel{
+  background-image:url(../Images/gjlbg.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+}
+.playNowButton{
+  font-size: 250%;
+}
+.btn-warning {
+  color: #000000;
+  background-color: #ffc40077;
+  border-color: #ffc40000;
+}
+.imagediv {
+  background-image: url("../Images/sunf5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+  
+}
+.textinimagediv{
+  padding-top: -100%;
+}
+.behindpicsunfinner{
+  background-color: #00000000;
+  
+  border-color: #6b2d1000;
+  color: #ffffff;
+}
